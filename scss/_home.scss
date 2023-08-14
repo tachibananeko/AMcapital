@@ -111,6 +111,7 @@ footer{
 		background: map-get($bg_color, primary);
 		border-radius: 5px;
 		border: 3px solid map-get($bg_color, secondary);
+		border-left-width: 4px;
 		transform: skewX(-45deg);
 
 		@include mw_sm{
