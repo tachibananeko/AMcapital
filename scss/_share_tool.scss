@@ -290,9 +290,8 @@ body{
 
 // icon設定
 $icon: (
-    'arrow',
-    'pw_hidden',
-    'pw_visible',
+    'mail',
+    'address',
 );
 
 @each $name in $icon {
