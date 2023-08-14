@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('/images/ethnocentric.woff') format("woff"),
+}
+@import "share_variable";
+@import "mixin";
+@import "reset";
+
+@import "share_tool"; //該站專屬共用元件
+
+
+
+// layout
+@import "home"; //主頁
+
+

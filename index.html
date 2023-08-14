@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="style/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>AM CAPITAL MANAGEMENT PTE. LTD.</title>
+</head>
+
+<body class="bodyBg" id="bodyBg">
+
+    <main>
+        <div class="slogan">
+            <h1></h1>
+            <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">AM CAPITAL</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">MANAGEMENT PTE. LTD.</h2>
+        </div>
+
+
+        <!-- info -->
+        <ul class="info">
+            <li data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1600">
+                <a href="mailto:assistant@amcm.sg">
+                    <i class="icon_mail"></i>
+                    <code>assistant@amcm.sg</code>
+                </a>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1500">
+                <a class="no_hand">
+                    <i class="icon_address"></i>
+                    <code>
+                        1 SCOTTS ROAD,<br>
+                        #22-12/13 SHAW CENTRE,<br>
+                        SINGAPORE 228208
+                    </code>
+                </a>
+            </li>
+        </ul>
+        <!-- info end -->
+    </main>
+
+
+
+    <script>
+        $(document).ready(()=>{ 
+            setTimeout(()=>{ $('#loading').addClass('--hide')},1000);
+            setTimeout(()=>{ $('#loading').remove()},1800);
+        })
+
+        AOS.init();
+    </script>
+</body>
+
+</html>
