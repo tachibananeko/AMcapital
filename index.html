@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="../style/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,63 +17,63 @@
     <link rel="apple-touch-icon-precomposed" href="images/favicon.png">
 </head>
 
-<body id="bodyBg">
+<body>
     <header>
-        <a href="tpl/philanthropy01.html" target="_blank">philanthropy</a>
+        <a class="logo" href="home.html"></a>
     </header>
 
-    <main>
-        <div class="slogan">
-            <h1 data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">AM CAPITAL MANAGEMENT PTE. LTD</h1>
-            <h2 data-aos="fade-down" data-aos-duration="800" data-aos-delay="800" data-aos-once="true">AM CAPITAL</h2>
-            <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="800" data-aos-once="true">MANAGEMENT PTE LTD</h2>
+    <!-- content -->
+    <div class="content --half --phi">
+        <div class="content__aside --noHide">
+            <ul class="content__aside__menu">
+                <li>PHILANTHROPY</li>
+                <li>
+                    <a href="#">
+                        Ren Ci Nursing Home CNY Celebration
+                        <p>31st January 2024 / Ren Ci @ Ang Mo Kio</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="tpl/philanthropy02.html">
+                        7oaks Christmas celebration
+                        <p>20th December 2023 / PPIS 7oaks Student Care</p>
+                    </a>
+                </li>
+            </ul>
         </div>
-
-
-        <!-- info -->
-        <ul class="info">
-            <li>
-                <a href="mailto:amcapital@amcm.sg">
-                    <i class="icon_mail" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true" data-aos-delay="1600"></i>
-                    <code data-aos="fade-in" data-aos-duration="700" data-aos-once="true" data-aos-delay="1600">amcapital@amcm.sg</code>
-                </a>
+    
+    
+    
+    
+    
+        <ul class="content__txt">
+            <li class="content__txt__title">
+                Ren Ci Nursing Home CNY Celebration
             </li>
-            <li>
-                <a class="no_hand">
-                    <i class="icon_address" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true" data-aos-delay="2000"></i>
-                    <code data-aos="fade-in" data-aos-duration="700" data-aos-once="true" data-aos-delay="2000">
-                        1 SCOTTS ROAD, #22-12/13 SHAW CENTRE,<br>
-                        SINGAPORE 228208
-                    </code>
-                </a>
+            <li><img src="../images/img_philanthropy01_1.jpg"></li>
+            <li>Celebrate Chinese New Year with resdiences in Ren Ci’s nursing homes. The section included lion dance, Getai
+                singer and Emcee talkshow. We also prepare goodie bags and Ang Paos for resdiences.
+                Wishing everybody a prosperous New Year.</li>
+            <li class="--twoPic">
+                <img src="../images/img_philanthropy01_2.jpg">
+                <img src="../images/img_philanthropy01_3.jpg">
             </li>
+            <li><img src="../images/img_philanthropy01_4.jpg"></li>
+            <li><img src="../images/img_philanthropy01_5.jpg"></li>
         </ul>
-        <!-- info end -->
-
-
-
-        <footer>
-            <!-- copyright -->
-            <div class="copyright">
-                COPYRIGHT © 2023 AM CAPITAL MANAGEMENT PTE. LTD. ALL RIGHTS RESERVED.
-                <code>UEN 202311503Z</code>
-            </div>
-            <!-- copyright end -->
-
-            <span data-txt="UEN 202311503Z"></span>
-        </footer>
-    </main>
-
-
-
-    <script>
-        $(document).ready(()=>{ 
-            setTimeout(()=>{ $('#loading').addClass('--hide')},1000);
-            setTimeout(()=>{ $('#loading').remove()},1800);
-        })
-
-        AOS.init();
-    </script>
+    </div>
+    <!-- content end -->
+    
+    <footer>
+        <!-- copyright -->
+        <div class="copyright">
+            COPYRIGHT © 2023 AM CAPITAL MANAGEMENT PTE. LTD. ALL RIGHTS RESERVED.
+            <code>UEN 202311503Z</code>
+        </div>
+        <!-- copyright end -->
+    
+        <span data-txt="UEN 202311503Z"></span>
+    </footer>
 </body>
 
 </html>

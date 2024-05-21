@@ -4,15 +4,27 @@ body{
 
 header{
 	@include pos_a(tl, 0);
-	@include d_f(flex, center, flex-end);
+	@include d_f(flex, center, space-between);
 	position: sticky;
 	width: 100%;
 	height: 56px;
-	background: url(../images/icon_logo.svg) 50px / 64px no-repeat map-get($bg_color, primary);
+	background: map-get($bg_color, primary);
 	padding: 0 32px;
 	z-index: 2;
 
-	a{
+	.logo{
+		display: block;
+		height: 100%;
+		width: 64px;
+		background: url(../images/icon_logo.svg) center no-repeat;
+	
+	
+		@include hoverHandler {
+			transform: scale(1.2);
+		}
+	}
+
+	.phil_btn{
 		padding: 8px 24px;
 		border: 2px solid map-get($bg_color, secondary);
 		border-radius: 5px;
